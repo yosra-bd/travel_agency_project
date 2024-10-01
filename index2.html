@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Travel Agency</title>
+    <style>
+        .logo{
+            mix-blend-mode: multiply;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="logo.jpg" alt="logo" class="logo" width="100px"></a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav><br><br><br>
+
+
+
+<!-- Hero Section -->
+<div class="hero container-fluid" style="background-image: url('kashmir.jpg'); background-size: cover; Background-position: center;background-repeat: no-repeat; color: white;height: 400px;; ">   
+     <div class="text-center">
+        <h1 class="display-4">Explore the World</h1>
+        <p class="lead">Your adventure starts here</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Book Now</a>
+    </div>
+</div><br><br><br>
+
+
+<!-- Destinations Section -->
+<div class="container">
+    <h2 class="text-center">Top Destinations</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="téléchargement.jpg" class="card-img-top" alt="Destination 1" m-y="15px" >
+                <div class="card-body">
+                    <h5 class="card-title">Maldives</h5>
+                    <p class="card-text">They offer the ultimate desert island paradise with the most incredible crystal clear turquoise waters, soft white sandy beaches, shallow lagoons, endless sunshine and some of the best coral reefs left on the planet. All of this coupled with the most wonderful warm friendly people makes the Maldives heaven on earth.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <img src="hawai.jpg" class="card-img-top" alt="Destination 1" m-y="15px" >
+                <div class="card-body">
+                    <h5 class="card-title">hawai</h5>
+                    <p class="card-text">Hawaii is a paradise for travelers worldwide with its white sand beaches, lush jungles, and vibrant culture. Whether you're looking for relaxation or adventure, there's something for everyone. One of the best ways to experience the islands is by taking one of the many Hawaii tours, excursions, and activities available.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="italie.webp" class="card-img-top" alt="Destination 1" m-y="15px" >
+                <div class="card-body">
+                    <h5 class="card-title">Italie</h5>
+                    <p class="card-text">Italy has always been one of the most popular vacation destinations for millions of people every year. And with good reasons! The sunny weather, beautiful landscapes, friendly locals, and amazing food speak for themselves.So join Sprachcaffe in the land of pizza, pasta, and gelato, and have una vacanza indimenticabile!</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div><br><br><br>
+
+<!-- Tours Section -->
+<div class="container">
+    <h2 class="text-center">Tour Packages</h2>
+    <div class="accordion" id="toursAccordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        A Taste of India Summer Special
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#toursAccordion">
+                <div class="card-body">
+                    Unbeatable price for a bucket list journey: Savor India's Golden Triangle, from Delhi & Agra to the Taj Mahal & Jaipur; plus Nepal optional extension from $1499 with Flights for 8 days per person, double occupancy <a href="#">View Details</a>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+</div><br><br><br>
+
+<!-- Contact Form -->
+<div class="container">
+    <h2 class="text-center">Contact Us</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="destination">Destination of Interest</label>
+            <input type="text" class="form-control" id="destination">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<br><br><br>
+<!-- Footer -->
+<footer class="text-center py-4">
+    <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    <a href="#" class="social-icon">Facebook</a>
+    <a href="#" class="social-icon">Twitter</a>
+    <a href="#" class="social-icon">Instagram</a>
+</footer>
+    </div>
+</body>
+</html>
